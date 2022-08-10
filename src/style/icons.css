@@ -1,0 +1,43 @@
+.icon {
+  display: inline-block;
+  background-size: contain;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+}
+
+.i-animation {
+  transition: 0.2s ease-in-out;
+}
+
+.icon--plus {
+  background-image: url(./../assets/icon-add-task-dark.svg);
+  width: 10px;
+  height: 10px;
+}
+
+.icon--plus:hover{
+  background-image: url(./../assets/icon-add-task-white.svg);
+}
+
+.btn:hover > .icon--plus {
+  background-image: url(./../assets/icon-add-task-white.svg);
+}
+
+.icon--plus-white {
+  width: 10px;
+  height: 10px;
+  background-image: url(./../assets/icon-add-task-white.svg);
+}
+
+.icon--close {
+  background-image: url(./../assets/icon-cross.svg);
+  margin: auto;
+}
+
+.icon--close-sidebar {
+  background-image: url(./../assets/icon-hide-sidebar.svg);
+  width: 15px;
+  height: 15px;
+  transform: translateY(15%);
+}

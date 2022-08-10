@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "boardName": "Web Design Project",
+    "columns": [
+      {
+        "columnName": "Web Design",
+        "tasks": [
+          {
+            "taskName": "Complete Page",
+            "description": "See more things",
+            "priority": "Urgent"
+          },
+          {
+            "taskName": "Start Page",
+            "description": "Start the current page to start other pages",
+            "priority": "Low"
+          }
+        ]
+      },
+      {
+        "columnName": "Frontend",
+        "tasks": [
+          {
+            "taskName": "Make CSS for page",
+            "description": "See more things",
+            "priority": "Urgent"
+          },
+          {
+            "taskName": "Make the event Listeners",
+            "description": "Start the current page to start other pages",
+            "priority": "Medium"
+          }
+        ]
+      },
+      {
+        "columnName": "Backend",
+        "tasks": [
+          {
+            "taskName": "Complete Page",
+            "description": "See more things",
+            "priority": "Urgent"
+          },
+          {
+            "taskName": "Start Page",
+            "description": "Start the current page to start other pages",
+            "priority": "Low"
+          }
+        ]
+      },
+      {
+        "columnName": "Stack",
+        "tasks": [
+          {
+            "taskName": "Complete Page",
+            "description": "See more things",
+            "priority": "Urgent"
+          },
+          {
+            "taskName": "Start Page",
+            "description": "Start the current page to start other pages",
+            "priority": "Low"
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "id": 2,
+    "boardName": "Datacamp Courses",
+    "columns": [
+      {
+        "columnName": "Machine Learning",
+        "tasks": [
+          {
+            "taskName": "Complete course 1",
+            "description": "Complete 4 modules per day",
+            "priority": "Medium"
+          },
+          {
+            "taskName": "Start Dart course",
+            "description": "Understand data structures of dart and typed language",
+            "priority": "High"
+          }
+        ]
+      }
+    ]
+  }
+]

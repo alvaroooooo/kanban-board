@@ -1,0 +1,80 @@
+.brand-section {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+.brand {
+  align-self: center;
+}
+
+.board-list-title {
+  color: var(--text-third);
+  letter-spacing: 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: var(--padding-left);
+  text-align: left;
+}
+
+.board-list {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-third);
+}
+
+.board-list {
+  height: max(300px, 60vh);
+}
+
+.toggle-section {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide-sidebar-section {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-hide {
+  border: 2px solid var(--clr-border);
+  border-radius: 10px;
+  color: var(--text-third);
+  cursor: pointer;
+  font-weight: 700;
+  padding: 5px 30px;
+}
+
+.hide-sidebar {
+  animation-name: fadeInRight;
+  animation-duration: 1000ms;
+}
+
+.hidden-sidebar {
+  width: 0%;
+  visibility: hidden;
+}
+
+@keyframes fadeInRight {
+  from {
+    transform: translate(-1%);
+  }
+  50% {
+    transform: translate(-100%);
+  }
+  to {
+    transform: translate(-100%);
+    visibility: hidden;
+    width: 0%;
+  }
+}

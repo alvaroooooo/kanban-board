@@ -1,0 +1,107 @@
+
+.right-section {
+  width: calc(100vw - min(250px, 300px));
+  display: flex;
+  flex-direction: column;
+}
+
+.top-banner {
+  background-color: var(--bg-primary-box);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  border-bottom: 2px solid var(--clr-border);
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.board-title {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+}
+
+.btn-add-task {
+  border-radius: 25px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  padding: 10px 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.btn-add-task:hover {
+  background-color: var(--bg-primary-hover);
+}
+
+.banner-options {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.drop-menu {
+  display: flex;
+  cursor: pointer;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+}
+
+.img-drop {
+  height: 100%;
+}
+
+.board {
+  padding: 25px 15px;
+  overflow: auto;
+  height: 100%;
+}
+
+.board::-webkit-scrollbar {
+  width: 2px;
+  height: 12px;
+}
+
+.board::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px var(--clr-border);
+  width: 2px;
+}
+
+.board::-webkit-scrollbar-thumb {
+  background-color: var(--bg-primary-box-hover);
+  outline: none;
+  border-radius: 5px;
+}
+
+.board-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.board-empty {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.empty-advice {
+  color: var(--text-third);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.board-content {
+  padding: 20px 10px;
+}

@@ -1,0 +1,42 @@
+
+.form-task {
+  text-align: left;
+  padding: 40px 45px;
+  padding-bottom: 60px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-third);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  background-color: var(--bg-primary-box);
+  border: 2px solid var(--clr-border);
+  border-radius: 5px;
+  color: var(--text-third);
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+}
+
+input:focus-visible {
+  outline: 2px solid var(--text-third);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.form-last {
+  padding-top: 20px;
+}

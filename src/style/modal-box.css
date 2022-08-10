@@ -1,0 +1,32 @@
+
+.modal-box-container {
+  background-color: var(--body-bg);
+  border: 2px solid var(--clr-border);
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s ease-in-out;
+  width: 600px;
+  z-index: 20;
+}
+
+.is-hidden {
+  visibility: hidden;
+}
+
+.btn-close {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  transform: 0.2s ease-in-out;
+}
+
+.btn-close:hover {
+  outline: 2px solid var(--clr-border);
+  border-radius: 1px;
+}

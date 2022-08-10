@@ -1,0 +1,82 @@
+
+.column {
+  display: flex;
+  min-width: 290px;
+  flex-direction: column;
+  align-content: center;
+  gap: 5px;
+  overflow: auto;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.column-name {
+  padding-left: 5px;
+  text-align: center;
+  color: var(--text-third);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.column-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  gap: 0px;
+  width: 250px;
+  background-color: var(--bg-primary-box);
+  border-radius: 3px;
+  padding: 20px 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.task-card:hover {
+  background-color: var(--bg-primary-box-hover);
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.task-description {
+  font-size: 0.8rem;
+  color: var(--text-third);
+  line-height: 1.1rem;
+}
+
+.task-prio {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.task-card-add {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  gap: 0px;
+  background-color: var(--bg-primary-box);
+  color: var(--bg-primary);
+  border-radius: 3px;
+  padding: 15px 15px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  width: 250px;
+  margin-top: 5px;
+}
+
+.task-card-add:hover {
+  background-color: var(--bg-primary-box-hover);
+  outline: 2px dashed var(--text-third);
+  outline-offset: -5px;
+}
